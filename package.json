@@ -1,0 +1,17 @@
+{
+  "name": "console.protect",
+  "version": "1.0.0",
+  "description": "Console Protect prevents a console from breaking a website in console-less browsers",
+  "author": "Jonathan Cousins <j.cousins@ry.com>",
+  "main": "src/console.protect.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evolutionxbox/console.protect"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.7.0"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/evolutionxbox/console.protect"
+}
