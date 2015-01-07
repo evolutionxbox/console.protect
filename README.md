@@ -7,6 +7,9 @@
 ## Getting Started
 
 - Clone or download this repoistory
+- Install [node](nodejs.org)
+- Run `npm install`
+- Copy the js in dist to your `js/vendor` folder
 - Include this script in your html file
 
 ```html
