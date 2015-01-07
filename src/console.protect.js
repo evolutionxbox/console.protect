@@ -1,3 +1,7 @@
+/**
+ * Protect window.console method calls, e.g. console is not defined on IE
+ * unless dev tools are open, and IE doesn't define console.debug
+ */
 (function(){
 
   // Define an empty function
@@ -33,15 +37,15 @@
   ];
 
   if (typeof window.console === "undefined") {
+    window.console = {};
+  }
 
-    // Loop through all the methods and define non-existing ones
-    // using the empty function
-    for(var i = 0; i < methods.length; i++) {
-      if(typeof window.console[methods[i]] === "undefined") {
-        window.console[methods[i]] = a;
-      }
+  // Loop through all the methods and define non-existing ones
+  // using the empty function
+  for(var i = 0; i < methods.length; i++) {
+    if(typeof window.console[methods[i]] === "undefined") {
+      window.console[methods[i]] = a;
     }
-
   }
 
 }());
