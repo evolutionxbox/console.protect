@@ -7,7 +7,7 @@
   // Define an empty function
   var a = function(){};
 
-  // A list of all the console methods (as of Chrome 39.0.2171.95 & 34.0.5)
+  // A list of all the console methods (as of Chrome 52.0.2743.116 - 2016/09/15)
   var methods = [
     "log",
     "assert",
@@ -26,7 +26,6 @@
     "profile",
     "profileEnd",
     "count",
-    "exception",
     "table",
     "markTimeline",
     "timeStamp",
