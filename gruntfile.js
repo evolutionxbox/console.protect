@@ -6,6 +6,11 @@ module.exports = function(grunt) {
 
     //Minify the JavaScript into the build folder
     uglify: {
+      options: {
+        banner: '/**\n' +
+        '* @preserve <%= pkg.name %> v<%= pkg.version %> | <%= pkg.author %> | <%= pkg.license %> Licensed\n' +
+        '*/\n'
+      },
       scripts: {
         files: {
           'dist/console.protect.min.js' : ['src/console.protect.js']
