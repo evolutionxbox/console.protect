@@ -1,5 +1,7 @@
 # Console Protect
 
+![Dependencies](https://david-dm.org/evolutionxbox/console.protect.svg)
+
 ##### Console Protect prevents a console from breaking a website in console-less browsers.
 
 - [Repoistory](https://github.com/evolutionxbox/console.protect)
